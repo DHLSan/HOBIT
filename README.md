@@ -1,11 +1,11 @@
-Project Title: Hardware/Software Partitioning and Conversion of a BNN Inference (Code Name: HOBIT)
-University name: Eskisehir Technical University
-Students: Samet Duru,  Burak Akkuş
-Supervisor: Assist. Prof. Dr. Ismail San
-Email of students and Supervisor: sametduru26@gmail.com / burak.akkus9707@gmail.com / isan@eskisehir.edu.tr
-The Board Used In Project: ZedBoard
+Project Title: Hardware/Software Partitioning and Conversion of a BNN Inference (Code Name: HOBIT).
+University name: Eskisehir Technical University.
+Students: Samet Duru,  Burak Akkuş.
+Supervisor: Assist. Prof. Dr. Ismail San.
+Email of students and Supervisor: sametduru26@gmail.com / burak.akkus9707@gmail.com / isan@eskisehir.edu.tr.
+The Board Used In Project: ZedBoard.
 
-Welcome to the HOBIT project. This project is based on a Binarized Neural Network(BNN) inference project called FracBNN which you can find in the following link: https://github.com/cornell-zhang/FracBNN
+Welcome to the HOBIT project. This project is based on a Binarized Neural Network(BNN) inference project called FracBNN which you can find in the following link: https://github.com/cornell-zhang/FracBNN  .
 
 The aim of that project is to solve a common bottleneck in BNNs which is the input layer that is not binarized thus doing floating point operations. 
 In HOBIT, we aimed to take the HLS design in FracBNN and partition it into hardware and software parts via VHDL and C languages respectively.
