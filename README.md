@@ -3,8 +3,8 @@ Artificial Neural networks (ANNs) are significant for deep learning systems. Dee
 
 ## Team Information
 - University name: Eskisehir Technical University
-- Supervisor: Assist. Prof. Dr. Ismail San(isan@eskisehir.edu.tr)
-- Students: Samet Duru(sametduru26@gmail.com),  Burak Akkuş(burak.akkus9707@gmail.com)
+- Supervisor: Assist. Prof. Dr. Ismail San (isan@eskisehir.edu.tr)
+- Students: Samet Duru (sametduru26@gmail.com),  Burak Akkuş (burak.akkus9707@gmail.com)
 
 
 
