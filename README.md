@@ -14,7 +14,7 @@ The aim of that project is to solve a common bottleneck in BNNs which is the inp
 In HOBIT, we aimed to take the HLS design in FracBNN and partition it into hardware and software parts via VHDL and C languages respectively.
 To be able to run the project you should do the following steps:
 
-**1)** Import the FracBNN IP core, which is located in Final Design folder, to your block design which should also consist of Processing System, Processor System Reset and AXI interconnect.
+**1)** Create a FracBNN IP core by using the vhdl source codes provided in Final Design/VHDL source files folder, and integrate it to your block design which should also consist of Processing System, Processor System Reset and AXI interconnect.
 
 **2)** Generate the bitstream of the design. Check for WNS value which should not be negative. If it is, you should reduce the clock frequency of the PL Fabric Clocks. In our case it runs at 45 MHz.
 
@@ -26,8 +26,15 @@ To be able to run the project you should do the following steps:
 
 **6)** However, if you'd like to test the whole project you should use the helloworld.c file as your main function. Nevertheless, when we tried to run the whole project in Vivado 2017.4 SDK on ZedBoard we have encountered some memory problems because of arrays with large store areas and large dimensions. We are not entirely sure if it is due to the version of Vivado compiler or lack of memory on ZedBoard. However since we can run the project in DevC++ in purely software manner and the functionality of HW IP core is verified from HW and SW parts, it is certain that the problem is related to memory. Also we don't know whether there might be a setting in Vivado compiler to solve this memory problem. If you are using another board with higher memory or another version of Vivado, you might be able to run the whole project. 
 
-### What's inside in each folder 
+### What's inside in each main folder 
 
 #### Final Design 
-sd
-
+This folder contains the final source files used in the project. It contains "VHDL source files" and "Vivado SDK Files" folders. 
+##### VHDL source files
+This folder contains the VHDL source files used for the creation of FracBNN IP Core as the hardware side of the project.
+##### Vivado SDK Files
+This folder contains the C source files used for building the rest of the design as the software side of the project.
+#### Experimental VHDL source files
+This folder contains the VHDL codes that couldn't make it to the final design due to integrity problems.
+#### Software Verification
+This folder contains 
