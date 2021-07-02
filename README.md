@@ -13,7 +13,7 @@ Welcome to the HOBIT project. This project is based on a Binarized Neural Networ
 The aim of that project is to solve a common bottleneck in BNNs which is the input layer that is not binarized thus doing floating point operations. 
 In HOBIT, we aimed to take the HLS design in FracBNN and partition it into hardware and software parts via VHDL and C languages respectively.
 To be able to run the project you should do the following steps:
-1) Import the FracBNN IP core, which is located in Final Design folder, to your block design which should also consist of Processing System, Processor System Reset and AXI interconnect.
+**1)** Import the FracBNN IP core, which is located in Final Design folder, to your block design which should also consist of Processing System, Processor System Reset and AXI interconnect.
 2) Generate the bitstream of the design. Check for WNS value which should not be negative. If it is, you should reduce the clock frequency of the PL Fabric Clocks. In our case it runs at 45 MHz.
 3) While both block design and implemented design are open, export the hardware to SDK including the bitstream.
 4) Now create a project in SDK and import all the C files and Header files in the HOBIT/Final Design/Vivado SDK Files.
