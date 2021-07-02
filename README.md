@@ -30,9 +30,9 @@ To be able to run the project you should do the following steps:
 
 #### Final Design 
 This folder contains the final source files used in the project. It contains "VHDL source files" and "Vivado SDK Files" folders. 
-##### VHDL source files
+- ##### VHDL source files
 This folder contains the VHDL source files used for the creation of FracBNN IP Core as the hardware side of the project.
-##### Vivado SDK Files
+- ##### Vivado SDK Files
 This folder contains the C source files used for building the rest of the design as the software side of the project.
 #### Experimental VHDL source files
 This folder contains the VHDL codes that couldn't make it to the final design due to integrity problems.
