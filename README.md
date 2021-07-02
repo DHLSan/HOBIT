@@ -1,4 +1,4 @@
-# HOBIT: Hardware-Software Partitioning and Conversion of a BNN Inference
+## HOBIT: Hardware-Software Partitioning and Conversion of a BNN Inference
 
 University name: Eskisehir Technical University
 
