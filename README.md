@@ -37,4 +37,4 @@ This folder contains the final source files used in the project. It contains "VH
 #### Experimental VHDL source files
 This folder contains the VHDL codes that couldn't make it to the final design due to integrity problems.
 #### Software Verification
-This folder contains 
+This folder contains the C file which is used to verify the functionality of the design.  
