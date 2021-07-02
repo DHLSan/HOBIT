@@ -26,3 +26,8 @@ To be able to run the project you should do the following steps:
 
 **6)** However, if you'd like to test the whole project you should use the helloworld.c file as your main function. Nevertheless, when we tried to run the whole project in Vivado 2017.4 SDK on ZedBoard we have encountered some memory problems because of arrays with large store areas and large dimensions. We are not entirely sure if it is due to the version of Vivado compiler or lack of memory on ZedBoard. However since we can run the project in DevC++ in purely software manner and the functionality of HW IP core is verified from HW and SW parts, it is certain that the problem is related to memory. Also we don't know whether there might be a setting in Vivado compiler to solve this memory problem. If you are using another board with higher memory or another version of Vivado, you might be able to run the whole project. 
 
+### What's inside in each folder 
+
+#### Final Design 
+sd
+
