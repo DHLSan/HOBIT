@@ -1,1 +1,1 @@
-If you'd like to reach the VHDL source files in the FacBNN IP core seperately, you can find them here.
+You can find the source files used to create the FracBNN IP Core here.
