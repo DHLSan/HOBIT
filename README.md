@@ -1,18 +1,13 @@
 # HOBIT: Binarized neural network (BNN) hardware acceleration for edge devices
 Artificial Neural networks (ANNs) are significant for deep learning systems. Deep neural networks (DNNs) have attracted significant attention for their excellent accuracy especially in areas such as computer vision and pattern recognition; they continue to become more powerful. However, DNN models require higher computational power and more on-chip memory as they become larger. Certain workloads can be offloaded to the cloud to utilize the computational power of the cloud devices. However, networking and communication is a problem from network bandwidth and security perspectives most of the time. Therefore, enabling the devices to do computation is a good solution to relieve the burden on the network infrastructure. However, since the edge devices such as Internet of Things (IoT) devices are small mobile devices, they are power- and resource-constrained which restricts the use of cutting edge DNN models on them. To compress the NN model, binarization is a powerful method which reduces the bit-width of input and weight values from single-precision floating point values to a single bit. This improves the resource usage and reduces the memory and computational requirements to a level that IoT edge devices can run while still offering similar accuracy capabilities of full precision DNN models. FPGAs are a good choice for these applications due to their low power consumption and high flexibility. To be able to accelerate the computation power of BNNs that are used in these IoT edge devices, this project proposes an RTL-level BNN hardware accelerator design on the specific BNN which is named as FracBNN using an FPGA-based programmable SoC platform, ZedBoard. 
 
-## Team Information
+## Team and Project Information
 - University name: Eskisehir Technical University
 - Supervisor: Assist. Prof. Dr. Ismail San (isan@eskisehir.edu.tr)
 - Students: Samet Duru (sametduru26@gmail.com),  Burak Akkuş (burak.akkus9707@gmail.com)
+- The Board Used In Project: ZedBoard
+- Youtube Link for First Demonstration: https://www.youtube.com/watch?v=GhHnXPMCgyU&ab_channel=Ruinex
 
-
-
-Email of students and Supervisor: sametduru26@gmail.com / burak.akkus9707@gmail.com / isan@eskisehir.edu.tr
-
-The Board Used In Project: ZedBoard
-
-Youtube Link for Demonstration: https://www.youtube.com/watch?v=GhHnXPMCgyU&ab_channel=Ruinex
 
 Welcome to the HOBIT project. This project is based on a Binarized Neural Network(BNN) inference project called FracBNN which you can find in the following link: https://github.com/cornell-zhang/FracBNN 
 
