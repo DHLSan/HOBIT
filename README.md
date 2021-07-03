@@ -16,7 +16,7 @@ The aim of that project is to solve a common bottleneck in BNNs which is the inp
 In HOBIT, we aimed to take the HLS design in FracBNN and partition it into hardware and software parts via VHDL and C languages respectively.
 To be able to run the project you should do the following steps:
 
-**1)** Create a FracBNN IP core by using the vhdl source codes provided in Final Design/VHDL source files folder, and integrate it to your block design which should also consist of Processing System, Processor System Reset and AXI interconnect.
+**1)** Create a HOBIT IP core by using the vhdl source codes provided in Final Design/VHDL source files folder, and integrate it to your block design which should also consist of Processing System, Processor System Reset and AXI interconnect.
 
 **2)** Generate the bitstream of the design. Check for WNS value which should not be negative. If it is, you should reduce the clock frequency of the PL Fabric Clocks. In our case it runs at 45 MHz.
 
@@ -33,7 +33,7 @@ To be able to run the project you should do the following steps:
 #### Final Design 
 This folder contains the final source files used in the project. It contains "VHDL source files" and "Vivado SDK Files" folders. 
 - ##### VHDL source files
-    This folder contains the VHDL source files used for the creation of FracBNN IP Core as the hardware side of the project.
+    This folder contains the VHDL source files used for the creation of HOBIT IP Core as the hardware side of the project.
 - ##### Vivado SDK Files
     This folder contains the C source files used for building the rest of the design as the software side of the project.
 #### Experimental VHDL source files
