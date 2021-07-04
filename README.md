@@ -8,7 +8,7 @@ Artificial Neural networks (ANNs) are significant for deep learning systems. Dee
 - Supervisor: Assist. Prof. Dr. Ismail San (isan@eskisehir.edu.tr)
 - Students: Samet Duru (sametduru26@gmail.com),  Burak Akkuş (burak.akkus9707@gmail.com)
 - The Board Used In Project: ZedBoard
-- Youtube Link for First Demonstration: https://www.youtube.com/watch?v=GhHnXPMCgyU&ab_channel=Ruinex
+- Youtube Link for First Demonstration: https://www.youtube.com/watch?v=OTt--FneTC4&ab_channel=Ruinex
 
 Welcome to the HOBIT project. This project is based on a Binarized Neural Network(BNN) inference project called FracBNN which you can find in the following link: https://github.com/cornell-zhang/FracBNN 
 
